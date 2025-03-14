@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inkspire - Checkout</title>
+</head>
+<body>
+    <h1>Checkout</h1>
+    <p>Total: £19.99</p>
+    <button onclick="processPayment()">Pay with Stripe</button>
+</body>
+</html>
+
+<script>
+    function processPayment() {
+        alert('Redirecting to Stripe...');
+    }
+</script>
